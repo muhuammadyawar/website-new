@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    
+}
+
+header {
+    background: #0a3d62;
+    color: white;
+    padding: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.hero {
+    background: url("images/air.jpg") center/cover no-repeat;
+    height: 70vh;
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.hero button {
+    padding: 12px 25px;
+    border: none;
+    background: #f39c12;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+section {
+    
+    padding: 50px;
+    text-align: center;
+    height: 150px;
+     
+}
+.re{
+    color: white;
+    background-color: rgb(83, 182, 91);
+   
+}
+
+.queen {
+    height: 70vh;
+    color: white;
+    text-align: center;
+    background-color: rgb(83, 182, 91);
+  
+}
+
+.enter {
+    color: white;
+    text-align: center;
+    background-color: rgb(83, 182, 91);
+    height: 60vh;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    width: 250px;
+    box-shadow: 0 0 10px #2b1010;
+    padding: 15px;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+}
+
+footer {
+    background: #0a3d62;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
